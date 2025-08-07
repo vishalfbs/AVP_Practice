@@ -31,10 +31,10 @@ struct ContentView: View {
                     .toggleStyle(.button)
                     .onChange(of: isVolumeSpace) { value in
                         if value {
-                            openWindow(id: "Open window")
+                            openWindow(id: "Open my window")
                         }
                         else{
-                            dismissWindow(id: "Open window")
+                            dismissWindow(id: "Open my window")
                         }
                     }
                     .glassBackgroundEffect()
